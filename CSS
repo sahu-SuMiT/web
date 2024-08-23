@@ -1,0 +1,24 @@
+h1{
+color: red;
+}
+
+INLINE SYTLE(generally not implemented)
+<h1 style="color: rgb(109, 98, 202);">Apna College</h1>
+<p style="color:pink">This is a paragraph</p>
+<button style="color:aqua; background-color: orange;">Help</button>
+
+3.COLOR PROPERTY
+4.BACKGROUND COLOR PROPERTY
+5.COLOR SYSTEM color(r,g,b)
+    black(0,0,0) or #000000 or #000
+    red(255,0,0) or #ff0000 or #f00
+    green(0,255,0) or #00ff00 or #0f0
+    blue(0,0,255) or #0000ff or #00f
+    white(255,255,255) #ffffff or #fff
+6.TEXT PROPERTIES
+    text-align (left/start, right/end, centre, justify) wrt width: 100%;
+    font-weight
+    text-decoration
+    line-height
+    letter spacing
+    font-size
