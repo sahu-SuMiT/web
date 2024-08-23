@@ -26,4 +26,25 @@ INLINE SYTLE(generally not implemented)
     ABSOLUTE ==> px pt pc cm mm in
     RELATIVE ==> % em rem ch vh vw + many more
 8.FONT FAMILY
-    
+
+1.ELEMENT SELECTOR AND CLASS SELECTOR AND DESCENDENT SELECTOR
+    *{
+        font-family: "Courier New";
+    }
+    h1,h2{
+        color: #b92b27;
+    }
+    #login{
+        background-color: white;
+    }
+    #signup{
+        background-color:#b92b27;
+        color:white;
+    }
+    .myClass{
+        background-color: red;       <!--   <button class="upvote">+upvote</button>  -->
+    }                                <!--   <button id="login">Log in</button>       -->
+
+    p a{
+        color : purple;
+    }
