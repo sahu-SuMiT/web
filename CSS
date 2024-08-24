@@ -45,6 +45,26 @@ INLINE SYTLE(generally not implemented)
         background-color: red;       <!--   <button class="upvote">+upvote</button>  -->
     }                                <!--   <button id="login">Log in</button>       -->
 
+    DECENDENT SIBLLING COMBINATOR
     p a{
         color : purple;
     }
+    ADJACENT SIBLING COMBINATOR (heading 3 that comes immediately after paragraph) 
+    p+h3{
+        text-decoration: underline;
+    }
+    DIRECT PARENT CHILD RELATION
+    p>a{
+        
+    }
+    ATTRIBUTE SELECTOR
+    input[type="radio"]:checked + label{
+        color:red;
+        font-weight:bold;
+    }
+    PSEUDO CLASS
+    :hover
+    :active
+    :checked
+    :nth-of-type
+    
