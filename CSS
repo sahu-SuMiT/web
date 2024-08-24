@@ -27,7 +27,7 @@ INLINE SYTLE(generally not implemented)
     RELATIVE ==> % em rem ch vh vw + many more
 8.FONT FAMILY
 
-1.ELEMENT SELECTOR AND CLASS SELECTOR AND DESCENDENT SELECTOR
+1.ELEMENT SELECTOR, CLASS SELECTOR, DESCENDENT SELECTOR, SIBLING SELECTOR
     *{
         font-family: "Courier New";
     }
