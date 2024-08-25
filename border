@@ -1,0 +1,22 @@
+div{
+    height:200px;
+    width:1000px;
+    background-color:pink;
+    /* border-width:5px;
+    border-style:solid;
+    border-color:black; */
+    border:5px solid black;
+    /* border-left-color:yellow;
+    border-left-style:dashed; */
+    border-top:5px dashed blue;
+}
+h1{
+    /* border-width:2px;
+    border-style:dashed;
+    border-color:purple; */
+    border: 2px dashed purple;
+    border-left-color:pink;
+    border-right-color:purple;
+    border-bottom-color:black;
+    border-top-color:yellow;
+}
