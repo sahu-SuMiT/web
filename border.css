@@ -30,3 +30,5 @@ h2{
 }
 display: inline-blick ==> to present rows of boxes in a line and not to loose css property
 display:none ==> This temporarily hides the display data
+em -> fontsize of element according to font size of parent or font size of element according to other properties of itsele like width/padding
+rem-> relative to root element
