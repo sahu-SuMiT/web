@@ -28,3 +28,5 @@ h2{
     display:block; / display:inline;
     background-color: cornsilk;
 }
+display: inline-blick ==> to present rows of boxes in a line and not to loose css property
+display:none ==> This temporarily hides the display data
