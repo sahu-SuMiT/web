@@ -1,14 +1,12 @@
 div{
-    height:200px;
-    width:1000px;
+    height:500px;
+    width:500px;
     background-color:pink;
     /* border-width:5px;
     border-style:solid;
     border-color:black; */
     border:5px solid black;
-    /* border-left-color:yellow;
-    border-left-style:dashed; */
-    border-top:5px dashed blue;
+    border-top-right-radius:50px;
 }
 h1{
     /* border-width:2px;
@@ -19,4 +17,5 @@ h1{
     border-right-color:purple;
     border-bottom-color:black;
     border-top-color:yellow;
+    border-radius:50px;
 }
