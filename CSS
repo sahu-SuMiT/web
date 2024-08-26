@@ -98,3 +98,6 @@ transform: skew(30deg);
 transform: rotate(90deg) translateX(100px);
 
 box-shadow: 2px 2px 8px hotpink;
+
+background-image: url("image-path");
+background-size: contain(repeat)/cover(crop)/auto(stretch)
