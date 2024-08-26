@@ -82,6 +82,10 @@ div:hover{
     margin-right:400px;
     background-color:pink;
 }
+PSEUDO ELEMENTS
+::first-letter
+::first-line
+::selection
 
 CSS TRANSFORM
 transform:rotate(45 deg);
