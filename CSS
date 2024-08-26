@@ -105,3 +105,10 @@ box-shadow: 2px 2px 8px hotpink;
 
 background-image: url("image-path");
 background-size: contain(repeat)/cover(crop)/auto(stretch)
+
+POSITION
+static
+relative
+absolute
+sticky
+fixed
