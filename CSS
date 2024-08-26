@@ -82,4 +82,12 @@ div:hover{
     margin-right:400px;
     background-color:pink;
 }
-    
+
+CSS TRANSFORM
+transform:rotate(45 deg);
+transform: Scale(0.5);
+transform: scaleX(0.5)/scaleY(0.5)
+translation takes place only in 2d in css and not in 3d.
+transform:translateX(2px)
+transform:translateY(2px)
+transform:translate(2px,2px)
