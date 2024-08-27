@@ -112,3 +112,25 @@ relative
 absolute
 sticky
 fixed
+
+FLEXBOX
+flexbox-direction:row;
+flexbox-direction:row-reverse;
+flexbox-direction:column;
+flexbox-direction:column-reverse;
+
+JUSTIFY
+justify-content:flex-start;
+justify-content:flex-end;
+justify-content:center;
+justify-cntent:space-between;
+
+FLEX WRAP
+flex-wrap:nowrap;
+flex-wrap:wrap;
+flex-wrap:wrap-reverse;
+
+ALIGN ITEMS
+align-content:flex-start;
+align-content:flex-end;
+align-content:space-between;
