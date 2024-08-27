@@ -134,3 +134,9 @@ ALIGN ITEMS
 align-content:flex-start;
 align-content:flex-end;
 align-content:space-between;
+
+ALIGN CONTENT
+align-content:flex-start/flex-end/center;
+align-content:space-between/space-around/center;
+align-content:baseline;
+
