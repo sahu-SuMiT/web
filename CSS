@@ -140,3 +140,20 @@ align-content:flex-start/flex-end/center;
 align-content:space-between/space-around/center;
 align-content:baseline;
 
+FLEXBASIS
+flex-basis: 50px;
+
+flex-grow:1
+flex:shrink:1
+
+FLEX SHORTHAND
+flex-grow|flex-shrink|flex-basis
+flex:2 2 100px;
+flex-grow|flex-basis
+flex:2 100px;
+flex-grow|
+flex-grow:1;
+flex-basis|
+flex-basis:100px
+
+
