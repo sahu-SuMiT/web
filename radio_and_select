@@ -1,0 +1,28 @@
+input type="checkbox" id="age" name="age" checked/>
+        <label for="age">I am 18+</label>
+    <hr/>
+        <div>
+            <p>Select Your Favourite Fruit</p>
+            <input type="radio" name="fruit1" id="apple" value="apple">
+            <label for="apple">Apple</label>
+            <hr/>
+            <input type="radio" name="fruit2" id="mango" value="mango">
+            <label for="mango">Mango</label>
+            <hr/>
+            <input type="radio" name="fruit3" id="banana" value="banana">
+            <label for="banana">Banana</label>
+            <hr/>
+            <input type="radio" name="fruit4" id="orange" value="orange">
+            <label for="orange">Orange</label>
+            <hr/>
+        </div>
+        <div>
+            <p>Choose your subjects </p>
+            <input type="checkbox" id="math" name="subjects" value="math"/>
+            <label for="math">Mathematics</label>
+            <input type="checkbox" id="science" name="subjects" value="science"/>
+            <label for="math">Science</label>
+            <input type="checkbox" id="english" name="subjects" value="english"/>
+            <label for="math">English</label>
+        </div>
+        <button>Submit</button>
