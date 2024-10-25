@@ -46,3 +46,6 @@ input type="checkbox" id="age" name="age" checked/>
             <option value="teacher">Teacher</option>
         </select>
         <button>Submit</button>
+
+ <label for="volume">Volume</label>
+        <input type="range" min="0" max="100" name="volume" step="0.01"
