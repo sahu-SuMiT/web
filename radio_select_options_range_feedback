@@ -49,3 +49,8 @@ input type="checkbox" id="age" name="age" checked/>
 
  <label for="volume">Volume</label>
         <input type="range" min="0" max="100" name="volume" step="0.01"
+
+<label for="feedback">Please provide your valuable feedback:</label>
+       <br/>
+        <textarea id="feedback" placeholder="write"></textarea>
+        <button>Submit</button>
