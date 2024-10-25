@@ -26,3 +26,23 @@ input type="checkbox" id="age" name="age" checked/>
             <label for="math">English</label>
         </div>
         <button>Submit</button>
+
+
+<label for="pet-select">Choose a pet:</label>
+        <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+        <hr/>
+        <label for="profession">Profession</label>
+        <select name="profession" id="profession">
+            <option value="">--choose--</option>
+            <option value="student"> Student</option>
+            <option value="teacher">Teacher</option>
+        </select>
+        <button>Submit</button>
