@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+.container div div{
+    height:100px;
+    width:100px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin:10px 5px;
+}
+.container{
+    display:flex;
+    justify-content:center ;
+    margin:10px auto;
+}
+.red{
+    background-color: red;
+}
+.purple{
+    background-color: rgb(183, 0, 183);
+}
+.green{
+    background-color: rgb(4, 202, 4);
+}
+.yellow{
+    background-color: yellow;
+}
+.flash{
+    background-color: grey;
+}
