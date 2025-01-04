@@ -55,10 +55,10 @@ async function getFacts(){
     return 'No Fact Found!';
   }
 }
-
+const config = {headers:{Accept:'text/plain'}};
 async function getDogImage(){
   try{
-    let res = await axios.get(url2);
+    let res = await axios.get(url2,config);
     return res.data.message;
   }
   catch(e){
