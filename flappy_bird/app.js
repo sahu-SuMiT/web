@@ -100,15 +100,15 @@ function play(){
         woosh.play();
         dy = - 7.6;
         //change image for upwards
-        //bird.src = 'images/Bird-2.png';
+        bird.src = 'images/Bird-2.png';
       }
     });
-    // document.addEventListener('keyup',(e)=>{
-    //   if(e.key == ' ' || e.key == 'ArrowUp'){
-    //     //change image if for downwards
-    //     bird.src = 'images/Bird.png';
-    //   }
-    // });
+    document.addEventListener('keyup',(e)=>{
+      if(e.key == ' ' || e.key == 'ArrowUp'){
+        //change image if for downwards
+        bird.src = 'images/Bird.png';
+      }
+    });
     document.addEventListener('touchstart',(e)=>{
         woosh.play();
         dy = - 9;
