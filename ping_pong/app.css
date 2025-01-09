@@ -22,8 +22,8 @@ body{
     background-color: white;
     top: calc(var(--position)* 1vh);
     transform:translateY(-50%);
-    width: 1vw; 
-    height:10vh;
+    width: 1.5vw; 
+    height:15vh;
     z-index: 11;
     
 }
