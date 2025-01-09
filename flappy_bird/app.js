@@ -30,24 +30,22 @@ document.addEventListener('keydown',(e)=>{
     woosh.play();
     window.location.reload();
     game_state = 'Unset';
-    bird.src = 'images/Bird.png'; 
   }
 });
 //extra lines for touch 1 start
-document.addEventListener('touchstart',(e)=>{
+document.addEventListener('mousedown',(e)=>{
   if(game_state == 'Unset' ){
     game_state = 'Play';
     message.classList.remove('messageStyle');
     message.innerHTML = '';
     bird.style.display = 'block';
     play();woosh.play();
-    bird.src = 'images/bird.gif';
+    bird.src = 'images/bird.gif';  
   }
   else if (game_state == 'End'){
     woosh.play();
     window.location.reload();
     game_state = 'Unset';
-    bird.src = 'images/Bird.png'; 
   }
 });
 //extra lines for touch 1 end
@@ -109,11 +107,9 @@ function play(){
         bird.src = 'images/Bird.png';
       }
     });
-    document.addEventListener('touchstart',(e)=>{
+    document.addEventListener('mousedown',(e)=>{
         woosh.play();
-        dy = - 9;
-        //change image for upwards
-          
+        dy = - 7.6;
     });
     
     bird.style.top = bird_props.top + dy + 'px';
