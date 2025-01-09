@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .background{
+    height: 100vh;
+    width: 100vw;
+    background: url('images/background-img.png') no-repeat center center /cover;
+    z-index: -1;
+  }
+
+  .pipe_sprite{
+    height:70vh;
+    width:7vw;
+    position:fixed;
+    left:100vw;
+    top: 20vh;
+    border: 5px solid black;
+    background-image: url("https://mario.wiki.gallery/images/3/35/SMBW_Pipe.png") no-repeat center center /cover;
+    background-color:green;
+    box-shadow: 0px 0px 20px white;
+    z-index: 10;
+    
+  }
+  
+  .bird{
+    height:55px;
+    width:75px;
+    display:block;
+    position: fixed;
+    top :30vh;
+    left: 35vw;
+    /* background-color:blue;
+    border-radius:50%; */
+    z-index: 20;
+  }
+  
+.score_board{
+  position: fixed;
+  z-index: 20;
+  height: 10vh;
+  font-size: 10vh;
+  color:black;
+  font-weight: 100;
+  -webkit-text-stroke: 2px black;
+  top:5vh;
+  left:0;
+  margin:10px;
+}
+
+.score_val{
+  margin-left:10px;
+  color:gold;
+  font-weight: bold;
+}
+
+ .message{
+  position:absolute;
+  z-index: 111;
+  color:black;
+  top:30%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+ }
+ .messageStyle{
+  background: rgba(255,255,255,0.8);
+  padding:30px;
+  box-shadow: rgba(0, 0, 0, 24);
+  border-radius: 5%;
+  height: 10vh;
+  width:30vw;
+  font-size:large;
+  font-weight: 500;
+ }
+ .game_over{
+  font-size: x-large;
+  -webkit-text-stroke: 2% yellow;
+ }
+
+.bound{
+  position: fixed;
+  background-color: green;
+  height:5vh;
+  width:100%;
+  border:2px black;
+  z-index: 112;
+}
+.up{
+  top:0;
+  border-bottom: solid;
+}
+.down{
+  bottom: 0;
+  border-top:solid;
+}
+
+@media only screen and (max-width : 720px){
+  .game_over{
+    font-size: large;
+  }
+  .bird{
+    left: 15vw;
+    height:35px;
+    width:45px;
+  }
+  .pipe_sprite{
+    width:10vw;
+  }
+}
+@media only screen and (max-width : 320px){
+  .game_over{
+    font-size: medium;
+  }
+  .bird{
+    left: 0vw;
+    height:35px;
+    width:45px;
+  }
+  .pipe_sprite{
+    width:15vw;
+  }
+}
